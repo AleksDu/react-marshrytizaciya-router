@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/react-marshrytizaciya-router/static/css/main.055ace1f.chunk.css",
+    "main.js": "/react-marshrytizaciya-router/static/js/main.dfda76d6.chunk.js",
+    "main.js.map": "/react-marshrytizaciya-router/static/js/main.dfda76d6.chunk.js.map",
+    "runtime-main.js": "/react-marshrytizaciya-router/static/js/runtime-main.0ffd0ee9.js",
+    "runtime-main.js.map": "/react-marshrytizaciya-router/static/js/runtime-main.0ffd0ee9.js.map",
+    "static/css/2.2ab3243f.chunk.css": "/react-marshrytizaciya-router/static/css/2.2ab3243f.chunk.css",
+    "static/js/2.1e9d0e42.chunk.js": "/react-marshrytizaciya-router/static/js/2.1e9d0e42.chunk.js",
+    "static/js/2.1e9d0e42.chunk.js.map": "/react-marshrytizaciya-router/static/js/2.1e9d0e42.chunk.js.map",
+    "index.html": "/react-marshrytizaciya-router/index.html",
+    "static/css/2.2ab3243f.chunk.css.map": "/react-marshrytizaciya-router/static/css/2.2ab3243f.chunk.css.map",
+    "static/css/main.055ace1f.chunk.css.map": "/react-marshrytizaciya-router/static/css/main.055ace1f.chunk.css.map",
+    "static/js/2.1e9d0e42.chunk.js.LICENSE.txt": "/react-marshrytizaciya-router/static/js/2.1e9d0e42.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.0ffd0ee9.js",
+    "static/css/2.2ab3243f.chunk.css",
+    "static/js/2.1e9d0e42.chunk.js",
+    "static/css/main.055ace1f.chunk.css",
+    "static/js/main.dfda76d6.chunk.js"
+  ]
+}
