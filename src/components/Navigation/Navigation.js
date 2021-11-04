@@ -27,6 +27,13 @@ const Navigation = () => (
     >
       Книги
     </NavLink>
+    <NavLink
+      to="/table"
+      className={styles.link}
+      activeClassName={styles.activeLink}
+    >
+      Таблица
+    </NavLink>
   </nav>
 );
 export default Navigation;

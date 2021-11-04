@@ -1,9 +1,12 @@
 import { useState, useEffect } from "react";
-import { Link, useRouteMatch } from "react-router-dom";
+import slugify from "slugify";
+import { Link, useRouteMatch, useLocation } from "react-router-dom";
 import * as bookShelfAPI from "../services/bookshelf-api";
 import PageHeading from "../components/PageHeading/PageHeading";
+const makeSlug = (string) => slugify(string, { lower: true });
 
 export default function BooksView() {
+  const location = useLocation();
   const { url } = useRouteMatch();
   const [books, setBooks] = useState(null);
 
@@ -19,7 +22,14 @@ export default function BooksView() {
         <ul>
           {books.map((book) => (
             <li key={book.id}>
-              <Link to={`${url}/${book.id}`}>{book.title}</Link>
+              <Link
+                to={{
+                  pathname: `${url}/${makeSlug(`${book.title} ${book.id}`)}`,
+                  state: { from: { location, label: "Назад к всем книгам" } },
+                }}
+              >
+                {book.title}
+              </Link>
             </li>
           ))}
         </ul>
